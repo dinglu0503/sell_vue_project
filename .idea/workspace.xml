@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b3dee9-df1a-4f75-81ba-5f2fb8ebe52f" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/pop_title/pop_title.vue" afterPath="$PROJECT_DIR$/src/components/poptitle/poptitle.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue" afterPath="$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/goods/goods.vue" afterPath="$PROJECT_DIR$/src/components/goods/goods.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.vue" afterPath="$PROJECT_DIR$/src/components/header/header.vue" />
     </list>
     <ignored path="sell_vue_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,6 +25,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="header.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header/header.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#2352#2392#0" expanded="true" />
+                <element signature="e#4733#5150#0" expanded="false" />
+                <element signature="e#5179#5846#0" expanded="false" />
+                <element signature="e#5869#5993#0" expanded="false" />
+                <element signature="e#6541#6646#0" expanded="false" />
+                <element signature="e#6683#6759#0" expanded="false" />
+                <element signature="e#6789#7103#0" expanded="false" />
+                <element signature="e#7136#8039#0" expanded="false" />
+                <element signature="e#7385#7953#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="外卖01_商品页.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/外卖01_商品页.jpg">
           <provider selected="true" editor-type-id="images">
@@ -39,33 +64,42 @@
         <entry file="file://$PROJECT_DIR$/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goods.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="goods.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/goods/goods.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="160">
+              <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#5106#6395#0" expanded="false" />
-                <element signature="e#5636#6395#0" expanded="false" />
-                <marker date="1503038468000" expanded="true" signature="12:1549" ph="..." />
+                <element signature="n#div#1;n#div#1;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#6609#6900#0" expanded="false" />
+                <marker date="1503371660000" expanded="true" signature="12:1710" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopcart.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="poptitle.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/poptitle/poptitle.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopcart.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/shopcart/shopcart.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -74,8 +108,8 @@
       <file leaf-file-name="cartcontrol.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="97">
+              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -113,6 +147,7 @@
       <find>\&lt;template\&gt;\n  \&lt;div class\=\&quot;goods\&quot;\&gt;\n    \&lt;div class\=\&quot;menu\-wrapper\&quot; v\-el\:menu\-wrapper\&gt;\n      \&lt;ul\&gt;\n        \&lt;li v\-for\=\&quot;item in goods\&quot; class\=\&quot;menu\-item\&quot; \:class\=\&quot;\{\'current\'\:currentIndex \=\=\= \$index\}\&quot;\&gt;\n\n          \&lt;span class\=\&quot;text\&quot;\&gt;\n            \&lt;span v\-show\=\&quot;item\.type\&gt;0\&quot; class\=\&quot;icon\&quot; \:class\=\&quot;classMap\[item\.type\]\&quot;\&gt;\&lt;\/span\&gt;\{\{item\.name\}\}\n          \&lt;\/span\&gt;\n        \&lt;\/li\&gt;\n      \&lt;\/ul\&gt;\n    \&lt;\/div\&gt;\n    \&lt;div class\=\&quot;foods\-wrapper\&quot; v\-el\:food\-wrapper\&gt;\n      \&lt;ul\&gt;\n        \&lt;li v\-for\=\&quot;item in goods\&quot; class\=\&quot;food\-list food\-list\-hook\&quot;\&gt;\n          \&lt;h1 class\=\&quot;title\&quot;\&gt;\{\{item\.name\}\}\&lt;\/h1\&gt;\n          \&lt;ul\&gt;\n            \&lt;li v\-for\=\&quot;food in item\.foods\&quot; class\=\&quot;food\-item border\-1px\&quot;\&gt;\n              \&lt;div class\=\&quot;icon\&quot;\&gt;\n                \&lt;img width\=\&quot;57px\&quot; \:src\=\&quot;food\.icon\&quot;\&gt;\n              \&lt;\/div\&gt;\n              \&lt;div class\=\&quot;content\&quot;\&gt;\n                \&lt;h2 class\=\&quot;name\&quot;\&gt;\{\{food\.name\}\}\&lt;\/h2\&gt;\n                \&lt;p class\=\&quot;desc\&quot;\&gt;\{\{food\.description\}\}\&lt;\/p\&gt;\n                \&lt;div class\=\&quot;extra\&quot;\&gt;\n                  \&lt;span class\=\&quot;count\&quot;\&gt;月售\{\{food\.sellCount\}\}份\&lt;\/span\&gt;\n                  \&lt;span\&gt;好评率\{\{food\.rating\}\}\%\&lt;\/span\&gt;\n                \&lt;\/div\&gt;\n                \&lt;div class\=\&quot;price\&quot;\&gt;\n                  \&lt;span class\=\&quot;now\&quot;\&gt;\￥\{\{food\.price\}\}\&lt;\/span\&gt;\&lt;span class\=\&quot;old\&quot;\n                                                                v\-show\=\&quot;food\.oldPrice\&quot;\&gt;\￥\{\{food\.oldPrice\}\}\&lt;\/span\&gt;\n                \&lt;\/div\&gt;\n              \&lt;\/div\&gt;\n            \&lt;\/li\&gt;\n          \&lt;\/ul\&gt;\n        \&lt;\/li\&gt;\n      \&lt;\/ul\&gt;\n    \&lt;\/div\&gt;\n  \&lt;\/div\&gt;\n\&lt;\/template\&gt;\n\n\&lt;script type\=\&quot;text\/ecmascript\-6\&quot;\&gt;\n  import BScroll from \'better\-scroll\'\n\n  const ERR_OK \= 0\;\n\n  export default \{\n    props\: \{\n      seller\: \{\n        type\: Object\n      \}\n    \}\,\n    data\(\) \{\n      return \{\n        goods\: \[\]\,\n        listHeight\: \[\]\,\n        scrollY\: 0\n      \}\;\n    \}\,\n    computed\: \{\n      currentIndex\(\) \{\n        for \(let i \= 0\; i \&lt; this\.listHeight\.length\; i\+\+\) \{\n          let height1 \= this\.listHeight\[i\]\;\n          let height2 \= this\.listHeight\[i \+ 1\]\;\n          if \(\!height2 \|\| \(this\.scrollY \&gt; height1 \&amp;\&amp; this\.scrollY \&lt; height2\)\) \{\n            return i\;\n          \}\n        \}\n      \}\n    \}\,\n    created\(\) \{\n      this\.classMap \= \[\'decrease\'\, \'discount\'\, \'special\'\, \'invoice\'\, \'guarantee\'\]\;\n\n      this\.\$http\.get\(\'\/api\/goods\'\)\.then\(\(response\) \=\&gt; \{\n        response \= response\.body\;\n        if \(response\.errno \=\=\= ERR_OK\) \{\n          this\.goods \= response\.data\;\n          this\.\$nextTick\(\(\) \=\&gt; \{\n            this\._initScroll\(\)\;\n            this\._calculateHeight\(\)\;\n          \}\)\n\/\/          this\._initScroll\(\)\n\/\/          console\.log\(this\.goods\)\;\n        \}\n      \}\)\;\n    \}\,\n    methods\: \{\n      _initScroll\(\) \{\n        this\.menuScroll \= new BScroll\(this\.\$els\.menuWrapper\, \{\}\)\;\n\n        this\.foodsScroll \= new BScroll\(this\.\$els\.foodWrapper\, \{\n          probeType\: 3\n        \}\)\;\n\n        this\.foodScroll\.on\(\'scroll\'\, \(pos\) \=\&gt; \{\n          this\.scrollY \= Math\.abs\(Math\.round\(pos\.y\)\)\;\n        \}\)\n      \}\,\n      _calculateHeight\(\) \{\n        let foodList \= this\.\$els\.foodsWrapper\.getElementsByClassName\(\'food\-list\-hook\'\)\;\n        let height \= 0\;\n        this\.listHeight\.push\(height\)\;\n        for \(let i \= 0\; i \&lt; foodList\.length\; i\+\+\) \{\n          let item \= foodList\[i\]\;\n          height \+\= item\.clientHeight\;\n          this\.listHeight\.push\(height\)\;\n        \}\n      \}\n    \}\n\n  \}\;\n\&lt;\/script\&gt;\n\n\&lt;style lang\=\&quot;stylus\&quot; rel\=\&quot;stylesheet\/stylus\&quot;\&gt;\n  \@import \&quot;\.\.\/\.\.\/common\/stylus\/mixin\.styl\&quot;\;\n\n  \.goods\n    display\: flex\n    position\: absolute\n    top\: 174px\n    bottom\: 46px\n    width\: 100\%\n    overflow\: hidden\n    \.menu\-wrapper\n      flex\: 0 0 80px\n      width\: 80px\n      background\: \#f3f5f7\n      \.menu\-item\n        display\: table\n        height\: 54px\n        width\: 54px\n        line\-height\: 14px\n        padding\: 0 12px\n        \&amp;\.current\n          position\: relative\n          z\-index\: 10\n          margin\-top\: \-1px\n          background\: \#FFF\n          font\-weight\: 700\n          \.text\n            border\-none\(\)\n        \.icon\n          display\: inline\-block\n          vertical\-align\: top\n          width\: 12px\n          height\: 12px\n          margin\-right\: 2px\n          background\-size\: 12px 12px\n          background\-repeat\: no\-repeat\n          \&amp;\.decrease\n            bg\-image\(\'decrease_3\'\)\n          \&amp;\.discount\n            bg\-image\(\'discount_3\'\)\n          \&amp;\.guarantee\n            bg\-image\(\'guarantee_3\'\)\n          \&amp;\.invoice\n            bg\-image\(\'invoice_3\'\)\n          \&amp;\.special\n            bg\-image\(\'special_3\'\)\n        \.text\n          display\: table\-cell\n          width\: 56px\n          vertical\-align\: middle\n          border\-1px\(rgba\(7\, 17\, 27\, 0\.1\)\)\n          font\-size\: 12px\n\n    \.foods\-wrapper\n      flex\: 1\n      \.title\n        padding\-left\: 14px\n        height\: 26px\n        line\-height 26px\n        border\-left\: 2px solid \#d9dde1\n        font\-size\: 12px\n        color\: rgb\(147\, 153\, 159\)\n        background\: \#f3f5f7\n      \.food\-item\n        display\: flex\n        margin\: 18px 18px 0 18px\n        padding\-bottom\: 18px\n        border\-1px\(rgba\(7\, 17\, 27\, 0\.1\)\)\n        \&amp;\:last\-child\n          border\-none\(\)\n          margin\-bottom\: 0px\n        \.icon\n          flex\: 0 0 57px\n          margin\-right\: 10px\n        \.content\n          flex\: 1\n          \.name\n            margin\: 2px 0 8px 0\n            height\: 14px\n            line\-height\: 14px\n            font\-size\: 14px\n            color\: rgb\(7\, 17\, 27\)\n          \.desc\, \.extra\n            line\-height\: 10px\n            font\-size\: 10px\n            color\: rgb\(147\, 153\, 159\)\n          \.desc\n            margin\-bottom\: 8px\n            line\-height\: 12px\n          \.extra\n            \.count\n              margin\-right\: 12px\n          \.price\n            font\-weight\: 700\n            line\-height\: 24px\n            \.now\n              margin\-right\: 8px\n              font\-size\: 14px\n              color\: rgb\(240\, 20\, 20\)\n            \.old\n              text\-decoration\: line\-through\n              font\-size\: 10px\n              color\: rgb\(7\, 17\, 27\)\n\n\&lt;\/style\&gt;\n</find>
       <find>deliveryP</find>
       <find>food-list-hook</find>
+      <find>pop</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -137,12 +172,14 @@
         <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/src/components/star/star.vue" />
         <option value="$PROJECT_DIR$/src/components/pop_title/pop_title.vue" />
-        <option value="$PROJECT_DIR$/src/components/header/header.vue" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/build/utils.js" />
-        <option value="$PROJECT_DIR$/src/components/goods/goods.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/components/shopcart/shopcart.vue" />
+        <option value="$PROJECT_DIR$/src/components/poptitle/poptitle.vue" />
+        <option value="$PROJECT_DIR$/src/components/header/header.vue" />
+        <option value="$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue" />
+        <option value="$PROJECT_DIR$/src/components/goods/goods.vue" />
       </list>
     </option>
   </component>
@@ -165,8 +202,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="29" />
+    <option name="y" value="23" />
     <option name="width" value="1263" />
     <option name="height" value="723" />
   </component>
@@ -188,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,11 +273,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sell_vue_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sell_vue_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="cartcontrol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sell_vue_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sell_vue_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sell_vue_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sell_vue_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="poptitle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,7 +395,8 @@
       <workItem from="1502697822475" duration="8937000" />
       <workItem from="1502721556996" duration="17034000" />
       <workItem from="1502852653814" duration="15261000" />
-      <workItem from="1502957124680" duration="23800000" />
+      <workItem from="1502957124680" duration="27384000" />
+      <workItem from="1503368550329" duration="2698000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1502692435363</created>
@@ -382,53 +440,41 @@
       <option name="project" value="LOCAL" />
       <updated>1503047847673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加购物车组件">
+      <created>1503047872575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503047872575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66351000" />
+    <option name="totallyTimeSpent" value="72633000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="29" width="1263" height="723" extended-state="0" />
+    <frame x="0" y="23" width="1263" height="723" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18438004" sideWeight="0.49056605" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22061191" sideWeight="0.49056605" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3121019" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.68949044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19496344" sideWeight="0.509434" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2931854" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2931854" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -450,7 +496,8 @@
     <MESSAGE value="创建外部组建header" />
     <MESSAGE value="1.增加弹窗浮层&#10;2.增加star、popa_title 组件" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="增加购物车组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加购物车组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pop_title/pop_title.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/stylus/mixin.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -714,26 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="80" column="10" lean-forward="true" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2356#2396#0" expanded="true" />
-            <element signature="e#4741#5158#0" expanded="false" />
-            <element signature="e#5187#5854#0" expanded="false" />
-            <element signature="e#5877#6001#0" expanded="false" />
-            <element signature="e#6549#6654#0" expanded="false" />
-            <element signature="e#6691#6767#0" expanded="false" />
-            <element signature="e#6797#7111#0" expanded="false" />
-            <element signature="e#7144#8047#0" expanded="false" />
-            <element signature="e#7393#7961#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,41 +795,67 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shopcart/shopcart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#2352#2392#0" expanded="true" />
+            <element signature="e#4733#5150#0" expanded="false" />
+            <element signature="e#5179#5846#0" expanded="false" />
+            <element signature="e#5869#5993#0" expanded="false" />
+            <element signature="e#6541#6646#0" expanded="false" />
+            <element signature="e#6683#6759#0" expanded="false" />
+            <element signature="e#6789#7103#0" expanded="false" />
+            <element signature="e#7136#8039#0" expanded="false" />
+            <element signature="e#7385#7953#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/poptitle/poptitle.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/goods/goods.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="160">
+          <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
           <folding>
             <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#5106#6395#0" expanded="false" />
-            <element signature="e#5636#6395#0" expanded="false" />
-            <marker date="1503038468000" expanded="true" signature="12:1549" ph="..." />
+            <element signature="n#div#1;n#div#1;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#6609#6900#0" expanded="false" />
+            <marker date="1503371660000" expanded="true" signature="12:1710" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shopcart/shopcart.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>

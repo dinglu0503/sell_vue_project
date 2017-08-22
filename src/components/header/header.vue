@@ -38,14 +38,14 @@
             <div class="star-wrapper">
               <star :size="48" :score="seller.score" class=""></star>
             </div>
-            <pop_title :services="services"></pop_title>
+            <poptitle :services="services"></poptitle>
             <ul v-if="seller.supports" class="supports">
               <li class="support-item" v-for="item in seller.supports">
                 <span class="icon" :class="classMap[seller.supports[$index].type]"></span>
                 <span class="text">{{seller.supports[$index].description}}</span>
               </li>
             </ul>
-            <pop_title :services="notice"></pop_title>
+            <poptitle :services="notice"></poptitle>
             <div class="bulletin">
               <p class="content">{{seller.bulletin}}</p>
             </div>
@@ -60,7 +60,7 @@
 
 <script type="text/ecmascript-6">
   import star from 'components/star/star';
-  import pop_title from 'components/pop_title/pop_title';
+  import poptitle from 'components/poptitle/poptitle';
 
     var SERVICE = "优惠信息";
     var NOTICE = "商家公告"
@@ -90,7 +90,7 @@
       },
       components: {
         star,
-        pop_title
+        poptitle
       }
     };
 </script>

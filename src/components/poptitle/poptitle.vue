@@ -1,5 +1,5 @@
 <template>
-  <div class="pop_title">
+  <div class="poptitle">
     <div class="line"></div>
     <div class="text">{{myservices}}</div>
     <div class="line"></div>
@@ -30,7 +30,7 @@ s
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "../../common/stylus/mixin.styl";
-  .pop_title
+  .poptitle
     display :flex
     width 80%
     margin: 28px auto 24px auto
