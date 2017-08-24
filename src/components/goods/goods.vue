@@ -2,7 +2,8 @@
   <div class="goods">
     <div class="menu-wrapper" v-el:menu-wrapper>
       <ul>
-        <li v-for="item in goods" class="menu-item" :class="{'current':currentIndex === $index}" @click="selectMenu($index,$event)">
+        <li v-for="item in goods" class="menu-item" :class="{'current':currentIndex === $index}"
+            @click="selectMenu($index,$event)">
 
           <span class="text">
             <span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>{{item.name}}
@@ -40,14 +41,15 @@
         </li>
       </ul>
     </div>
-    <shopcart :select-foods="selectDoods" :delivery-price="seller.deliveryPrice" :min-price="seller.minPrice"></shopcart>
+    <shopcart v-ref:shopcart :select-foods="selectFoods" :delivery-price="seller.deliveryPrice"
+              :min-price="seller.minPrice"></shopcart>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
   import BScroll from 'better-scroll';
   import shopcart from 'components/shopcart/shopcart';
-  import  cartcontrol from 'components/cartcontrol/cartcontrol';
+  import cartcontrol from 'components/cartcontrol/cartcontrol';
 
   const ERR_OK = 0;
 
@@ -83,6 +85,7 @@
             }
           });
         });
+        return foods;
       }
     },
     created() {
@@ -104,12 +107,12 @@
     methods: {
       _initScroll() {
         this.menuScroll = new BScroll(this.$els.menuWrapper, {
-          click:true
+          click: true
         });
 
         this.foodsScroll = new BScroll(this.$els.foodsWrapper, {
           probeType: 3,
-          click:true
+          click: true
         });
 
         this.foodsScroll.on('scroll', (pos) => {
@@ -126,21 +129,31 @@
           this.listHeight.push(height);
         }
       },
-      selectMenu(index,event) {
-        if(!event._constructed) {
+      selectMenu(index, event) {
+        if (!event._constructed) {
           return;
         }
         console.log(index)
         let foodList = this.$els.foodsWrapper.getElementsByClassName('food-list-hook');
         let el = foodList[index];
         this.foodsScroll.scrollToElement(el, 10);
+      },
+      _drop(target) {
+        //异步执行动画，优化作用
+        this.$nextTick(() => {
+          this.$refs.shopcart.drop(target);
+        })
       }
     },
-    components:{
+    components: {
       shopcart,
       cartcontrol
+    },
+    events: {
+      'cart.add'(target) {
+        this._drop(target);
+      }
     }
-
   };
 </script>
 
@@ -249,8 +262,8 @@
               color: rgb(7, 17, 27)
 
           .cartcontrol-wrapper
-            position :absolute
-            right :0
+            position: absolute
+            right: 0
             bottom: 12px
 
 </style>
