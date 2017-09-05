@@ -13,7 +13,7 @@ var port = process.env.PORT || config.dev.port
 // https://github.com/chimurai/http-proxy-middleware
 var proxyTable = config.dev.proxyTable
 
-var app = express()
+var app = express();
 
 var appData = require('../data.json');
 
@@ -24,7 +24,7 @@ var ratings = appData.ratings;
 var apiRoutes = express.Router();
 
 apiRoutes.get('/seller',function(req, res){
-    
+
   res.json({
     errno: 0,
     data: seller
