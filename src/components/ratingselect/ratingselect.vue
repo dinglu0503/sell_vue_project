@@ -57,7 +57,6 @@
         this.$dispatch('ratingtype.select', type);
       },
       toggleContent(event) {
-        console.log("121212");
         if (!event._constructed) {
           return;
         }
@@ -67,19 +66,19 @@
       }
 
     },
-    computed:{
-      positives(){
+    computed: {
+      positives() {
         return this.ratings.filter((rating) => {
           return rating.rateType === POSITIVE;
         });
       },
-      negatives(){
+      negatives() {
         return this.ratings.filter((rating) => {
           return rating.rateType === NEGATIVE;
         });
       }
-
     }
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
