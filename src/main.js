@@ -24,9 +24,10 @@ router.map({
 	'/ratings': {
    component: ratings
 	},
-	'seller': {
+	'/seller': {
 		component: seller
 	}
+
 })
 
 router.start(app, '#app')

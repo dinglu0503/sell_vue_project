@@ -49,7 +49,7 @@
     },
     methods: {
       select(type, event) {
-        console.log("in");
+//        console.log("in");
         if (!event._constructed) {
           return;
         }
@@ -60,7 +60,7 @@
         if (!event._constructed) {
           return;
         }
-        console.log(this.onlyContent);
+//        console.log(this.onlyContent);
         this.onlyContent = !this.onlyContent;
         this.$dispatch('content.toggle', this.onlyContent);
       }
